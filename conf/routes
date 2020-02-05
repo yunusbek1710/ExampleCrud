@@ -1,0 +1,13 @@
+
+
+
+
+GET     /                           @controllers.HomeController.index
+POST    /create                     @controllers.HomeController.create
+GET     /getList                    @controllers.HomeController.getComputer
+DELETE  /delete                     @controllers.HomeController.delete
+POST    /update                     @controllers.HomeController.update
+
+GET     /assets/*file               @controllers.Assets.versioned(path="/public", file)
+
+->      /webjars                    webjars.Routes

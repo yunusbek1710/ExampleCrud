@@ -1,0 +1,4 @@
+CREATE TABLE "Study" (
+   "id" SERIAL NOT NULL PRIMARY KEY,
+   "computer" VARCHAR NOT NULL
+);
